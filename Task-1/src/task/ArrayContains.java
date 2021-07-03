@@ -1,7 +1,7 @@
 package task;
 
 public class ArrayContains {
-	public static void itcontains(int element,int[]array) {
+	public static void itContains(int element,int[]array) {
 		int i;
 		for(i=0;i<array.length;i++) {
 			if(element==array[i]) {

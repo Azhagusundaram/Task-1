@@ -12,80 +12,80 @@ public class Task1Runner {
 			int[]array;
 			switch(descision) {
 				case 1:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					System.out.println("Enter the element");
 					element=scan.nextInt();
 					IndexOfAnArrayElement.find(element,array);
 					break;
 				case 2:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					SumOfValues.calculate(array);
 					break;
 				case 3:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					System.out.println("Enter the element:");
 					element=scan.nextInt();
 					RemoveAnElement.remove(element,array);
 					break;
 				case 4:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					System.out.println("Enter the element and its position with space");
 					element=scan.nextInt();
 					position=scan.nextInt();
 					InsertAnElement.insert(element,position,array);
 					break;
 				case 5:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					System.out.println("Enter the element:");
 					element=scan.nextInt();
-					ArrayContains.itcontains(element,array);
+					ArrayContains.itContains(element,array);
 					break;
 				case 6:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					MaximumAndMinimum.find(array);
 					break;
 				case 71:
-					int[] array1=ArrayElements.getarrayininteger();
-					int[] array2=ArrayElements.getarrayininteger();
+					int[] array1=ArrayElements.getArrayInInteger();
+					int[] array2=ArrayElements.getArrayInInteger();
 					CommonElement.find(array1, array2);
 					break;
 				case 72:
-					String[] array3=ArrayElements.getarrayinstring();
-					String[] array4=ArrayElements.getarrayinstring();
+					String[] array3=ArrayElements.getArrayInString();
+					String[] array4=ArrayElements.getArrayInString();
 					CommonElement.find(array3, array4);
 					break;
 				case 8:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					RemoveDuplicate.remove(array);
 					break;
 				case 9:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					EvenAndOdd.find(array);
 					break;
 				case 10:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					AverageValue.calculate(array);
 					break;
 				case 11:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					System.out.println("Enter the Target Value:");
 					element=scan.nextInt();
 					SumOfTwoElements.find(array,element);
 					break;
 				case 12:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					ReverseAnArray.reverse(array);
 					break;
 				case 13:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					SeparateEvenAndOdd.separate(array);
 					break;
 				case 14:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					SortAnArray.sort(array);
 					break;
 				case 15:
-					array=ArrayElements.getarrayininteger();
+					array=ArrayElements.getArrayInInteger();
 					Leaders.find(array);
 					break;
 			}	

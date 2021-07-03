@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ArrayElements {
 	static Scanner scan = new Scanner(System.in);
-	public static int[] getarrayininteger() {
+	public static int[] getArrayInInteger() {
 			System.out.println("Enter the size of an Array");
 			int size=scan.nextInt();
 			int[] array=new int[size];
@@ -14,7 +14,7 @@ public class ArrayElements {
 				}
 			return array;	
 	}
-	public static String[] getarrayinstring() {
+	public static String[] getArrayInString() {
 			System.out.println("Enter the size of an Array");
 			int size=scan.nextInt();
 			String[] array=new String[size];
