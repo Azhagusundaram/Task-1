@@ -1,5 +1,7 @@
 package com.task1;
 
+import java.util.Arrays;
+
 public class RemoveDuplicate {
 	public static void remove(int[]array) {
 		int[]newarray=new int[array.length];
@@ -15,9 +17,6 @@ public class RemoveDuplicate {
 				newarray[k++]=array[i];
 			}
 		}
-		for(int i=0;i<k;i++) {
-			System.out.print(newarray[i]+" ");
-		}
-		System.out.println();
+		System.out.println(Arrays.toString(newarray));
 	}
 }

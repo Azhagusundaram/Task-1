@@ -1,5 +1,7 @@
 package com.task1;
 
+import java.util.Arrays;
+
 public class RemoveAnElement {
 	public static void remove(int element,int[] array) {
 		int j=0;
@@ -11,9 +13,6 @@ public class RemoveAnElement {
 				newarray[j++]=array[i];
 		}
 		System.out.println("Final Array");
-		for(int i=0;i<j;i++) {
-			System.out.print(newarray[i]+" ");
-		}
-		System.out.println();
+		System.out.println(Arrays.toString(newarray));
 	}
 }

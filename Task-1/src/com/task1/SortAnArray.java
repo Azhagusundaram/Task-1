@@ -1,5 +1,7 @@
 package com.task1;
 
+import java.util.Arrays;
+
 public class SortAnArray {
 	public static void sort(int[]array) {
 		for(int i=0;i<array.length-1;i++) {
@@ -12,9 +14,6 @@ public class SortAnArray {
 			}
 		}
 		System.out.println("Sorted Array");
-		for(int i=0;i<array.length;i++) {
-			System.out.print(array[i]+" ");
-		}
-		System.out.println();
+		System.out.println(Arrays.toString(array));
 	}
 }

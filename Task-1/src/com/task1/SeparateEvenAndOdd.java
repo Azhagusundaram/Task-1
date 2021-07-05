@@ -1,5 +1,7 @@
 package com.task1;
 
+import java.util.Arrays;
+
 public class SeparateEvenAndOdd {
 	public static void separate(int[]array) {
 		int k=0;
@@ -11,9 +13,6 @@ public class SeparateEvenAndOdd {
 			}
 		}
 		System.out.println("Final Array");
-		for(int i=0;i<array.length;i++) {
-			System.out.print(array[i]+" ");
-		}
-		System.out.println();
+		System.out.println(Arrays.toString(array));
 	}
 }
