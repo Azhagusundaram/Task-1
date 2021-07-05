@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class SeparateEvenAndOdd {
 	public static void separate(int[]array) {

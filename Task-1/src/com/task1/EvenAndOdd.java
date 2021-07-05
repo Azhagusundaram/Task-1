@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class EvenAndOdd {
 	public static void find(int[]array) {

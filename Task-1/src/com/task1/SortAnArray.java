@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class SortAnArray {
 	public static void sort(int[]array) {

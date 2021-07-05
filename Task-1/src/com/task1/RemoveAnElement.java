@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class RemoveAnElement {
 	public static void remove(int element,int[] array) {

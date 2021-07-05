@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class RemoveDuplicate {
 	public static void remove(int[]array) {

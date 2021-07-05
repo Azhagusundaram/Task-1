@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class IndexOfAnArrayElement {
 	public static void find(int element,int[]array) {

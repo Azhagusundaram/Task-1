@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class InsertAnElement {
 	public static void insert(int element,int position,int[]array) {

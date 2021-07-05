@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class Leaders {
 	public static void find(int[]array) {

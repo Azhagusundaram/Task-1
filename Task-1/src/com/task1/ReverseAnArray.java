@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class ReverseAnArray {
 	public static void reverse(int[]array) {

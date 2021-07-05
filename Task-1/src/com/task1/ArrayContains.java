@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class ArrayContains {
 	public static void itContains(int element,int[]array) {

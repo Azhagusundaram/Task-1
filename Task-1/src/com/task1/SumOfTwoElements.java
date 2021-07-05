@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class SumOfTwoElements {
 	public static void find(int[]array,int number) {

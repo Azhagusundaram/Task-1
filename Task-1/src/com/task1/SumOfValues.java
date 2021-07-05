@@ -1,4 +1,4 @@
-package task;
+package com.task1;
 
 public class SumOfValues {
 	public static void calculate(int[]array) {
